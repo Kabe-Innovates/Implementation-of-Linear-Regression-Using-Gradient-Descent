@@ -67,6 +67,7 @@ new_data_scaled = scaler.transform(ct.transform(new_data))
 new_prediction = np.dot(np.append(1, new_data_scaled), theta)
 
 print(f"Predicted value: {new_prediction[0]}")
+data.head()
 
 ```
 
@@ -74,6 +75,11 @@ print(f"Predicted value: {new_prediction[0]}")
 ```
 Predicted value: 193075.97426510364
 ```
+![Screenshot](https://github.com/user-attachments/assets/ae06e431-21f7-47fe-967b-eaa88d5bf53f)
+
+
+
+
 
 ## Result:
 Thus the program to implement the linear regression using gradient descent is written and verified using python programming.
